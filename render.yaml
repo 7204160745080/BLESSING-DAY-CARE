@@ -1,0 +1,5 @@
+services:
+  - type: static
+    name: blessing-day-care
+    buildCommand: echo "No build step required"
+    staticPublishPath: .
