@@ -1,5 +1,7 @@
 services:
-  - type: static
-    name: blessing-day-care
-    buildCommand: echo "No build step required"
-    staticPublishPath: .
+  - type: web
+    name: BLESSING-DAY-CARE
+    runtime: node
+    plan: free
+    buildCommand: npm install --omit=dev
+    startCommand: npm start

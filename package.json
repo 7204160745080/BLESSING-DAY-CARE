@@ -1,0 +1,9 @@
+{
+  "name": "blessing-day-care",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Blessing Day Care homepage",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
